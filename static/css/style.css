@@ -1,0 +1,41 @@
+body {
+    background-color: #d0c7c1;
+    color: #333;
+}
+
+header .logo {
+    font-size: 24px;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.courses img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.courses h3 {
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+}
+
+.course-container {
+    background-color: #736e78;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.comments {
+    background-color: #736e78;
+}
+
+.comment-container {
+    background-color: #736e78;
+    padding: 25px;
+    border-radius: 25px;
+}
+
