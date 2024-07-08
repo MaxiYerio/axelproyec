@@ -19,6 +19,7 @@
                     <li class="nav-item"><a href="#courses" class="nav-link text-black">Cursos</a></li>
                     <li class="nav-item"><a href="#about" class="nav-link text-black">Nosotros</a></li>
                     <li class="nav-item"><a href="#contact" class="nav-link text-black">Contactos</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link text-black">Login</a></li>
                 </ul>
             </nav>
         </div>
@@ -39,28 +40,11 @@
 
     <section id="courses" class="courses py-5">
         <div class="container">
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <div class="rounded">
-                        <img src="./static/img/backend.jpg" alt="Backend" class="img-fluid mb-3">
-                        <h3 class="course-container text-white">Backend</h3>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="rounded">
-                        <img src="./static/img/frondend.jpg" alt="Frontend" class="img-fluid mb-3">
-                        <h3 class="course-container text-white">Frontend</h3>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="rounded">
-                        <img src="./static/img/blob.jpg" alt="JavaScript" class="img-fluid mb-3">
-                        <h3 class="course-container text-white">JavaScript</h3>
-                    </div>
-                </div>
+            <div class="row text-center" id="courses-container">
+                <!-- Los cursos se agregarán aquí dinámicamente -->
             </div>
         </div>
-    </section>
+    </section>   
 
     <section id="about" class="py-5">
         <div class="container">
@@ -125,6 +109,7 @@
         </div>
     </footer>
 
+    <script src="static/js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
