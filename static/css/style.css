@@ -44,6 +44,50 @@ header .logo {
     border-radius: 15px;
 }
 
+.about-container {
+    background-color: #736e78;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-container {
+    background-color: #736e78;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-icons {
+    margin-top: 20px;
+}
+
+.contact-icons .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-background {
+    background-color: #f1efed;
+    border-radius: 50%;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+
+.icon-background img {
+    width: 40px;
+    height: 40px;
+}
+
+.icon-background:hover {
+    transform: scale(1.2);
+}
+
+
+
 .comments {
     background-color: #736e78;
 }
